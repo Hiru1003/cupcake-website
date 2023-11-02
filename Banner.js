@@ -19,7 +19,8 @@ const Banner = () => {
           className='text-[45px] font-medium leading-[0.8] lg:text-[85px] text-primary'>
           CUP CAKE <br/><span>BAKERY <br/></span>
           </motion.h4>
-          
+
+          //motion
           <motion.p 
           variants={fadeIn('up', 0.3)} 
           initial='hidden' whileInView={'show'} 
