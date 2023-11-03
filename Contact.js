@@ -7,6 +7,8 @@ const Contact = () => {
   return <section className='py-16 lg:section bg-purple-300' id='contact'>
     <div className='container mx-auto'>
       <div className='flex flex-col lg:flex-row'>
+
+        //motiondiv
         <motion.div 
         variants={fadeIn('right', 0.3)} 
         initial='hidden' whileInView={'show'} 
@@ -25,9 +27,11 @@ const Contact = () => {
           <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' 
           type='text' placeholder='Your name'/>
 
+          //input area
           <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' 
           type='text' placeholder='Your email'/>
 
+          //textarea
           <textarea className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' 
           type='text' placeholder='Your message'>
           </textarea>  
