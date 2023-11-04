@@ -8,6 +8,7 @@ const Nav = () => {
     <div className='container mx-auto'>
       <div className='w-[500px] bg-black/20 h-[90px] backdrop-blur-2xl rounded-full max-w[460px]
       mx-auto px-5 flex justify-between items-center text-2x1 text-white/50'>
+    //LINK
       <Link 
       to='home'
       activeClass='active'
