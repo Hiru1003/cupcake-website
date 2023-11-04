@@ -7,6 +7,7 @@ const Header = () => {
         <a href="#">
           
         </a>
+    //BUTTON
         <button className='btn btn-sm'>Work with me</button>
       </div>
     </div>
